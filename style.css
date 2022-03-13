@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#a9d7d1;
+    font-family: 'Open Sans', sans-serif;
+
+    
+    
+}
+body h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+
+  }  
+
+     .description{
+      font-size: 17px;
+      text-align: center;
+      padding-top: 18px;
+      padding-bottom: 25px;
+    
+  }
+
+     .survey-form{
+         
+         background: whitesmoke;
+         height: 1070px;
+         width: 980px;
+         margin-left: 170px;
+         border-radius: 6px;
+         
+         }
+
+         .form{
+             width:75%;
+             text-align:right;
+             line-height: 1.65;
+             
+             
+             
+
+             
+         }
+         
+        #name{
+            
+            
+            margin: 10px;
+            height: 33px;
+            width: 252px;
+            border: 2px solid gainsboro;
+            border-radius: 5px;
+            padding-left: 3.9px;
+            padding-top: 1.5px;
+           
+        }
+        #email{
+            
+            
+            margin: 10px;
+            height: 33px;
+            width: 252px;
+            border: 2px solid gainsboro;
+            border-radius: 5px;
+             padding-left: 3.9px;
+            padding-top: 1.5px;
+           
+        }
+        
+        #Age{
+            
+            
+            margin: 10px;
+            height: 33px;
+            width: 252px;
+            border: 2px solid gainsboro;
+            border-radius: 5px;
+             padding-left: 3.9px;
+            padding-top: 1.5px;
+           
+        }
+
+        #option{
+      
+            margin:10px;
+            height: 33px;
+            width: 135px;
+            border: 2px solid gainsboro;
+            border-radius: 5px;
+            margin-right: 130px;
+            text-align-last: center;
+     }
+
+    
+    .check1{
+        margin: 20px;
+        margin-right: 175px;
+    }
+
+     .check2{
+         margin: 15px;
+        margin-right: 188px;
+      }
+
+     .check3{
+        margin: 20px;
+        margin-right: 177.9px;
+         }
+
+
+    #option1{
+      
+        margin:10px;
+        height: 33px;
+        width: 135px;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+        margin-right: 128px;
+        text-align-last: center;
+
+       
+
+    }
+    .check4{
+        margin: 20px;
+        margin-right: 102px;
+
+    
+
+    }
+    .check5{
+        margin: 20px;
+        margin-right: 103px;
+
+    
+
+    }
+    .check6{
+        margin: 20px;
+        margin-right: 103px;
+
+    
+
+    }
+    .check7{
+        margin: 20px;
+        margin-right: 154px;
+
+    
+
+    }.check8{
+        margin: 20px;
+        margin-right: 48px;
+
+    
+
+    }.check9{
+        margin: 20px;
+        margin-right: 104px;
+
+    
+
+    }.check10{
+        margin: 20px;
+        margin-right: 186px;
+
+    
+
+    }.check11{
+        margin: 20px;
+        margin-right: 138px;
+
+    
+
+    }.check12{
+        margin: 20px;
+        margin-right: 205px;
+
+    
+
+    }
+    .check13{
+        margin: 20px;
+        margin-right: 186px;
+
+    
+
+    }
+            
+     .check14{
+        margin: 20px;
+        margin-right: 94.9px;
+
+    
+
+    }
+
+    
+     .textarea{
+
+    
+        padding-top: 4px;
+        padding-left: 3px;
+         margin-left:450px;
+         display: inline;
+         border: 2px solid gainsboro;
+         border-radius: 5px;
+     }   
+
+         .submit{
+
+    
+    
+         margin:10px;
+            height: 40px;
+            width: 90px;
+            border: 2px solid;
+            border-radius: 5px;
+            margin-right: 165px;
+            background-color:#037ffc;
+            font-size: 19px;
+           color: white;
+    
+     }   
+         
+
+    
+
+        
+       
+    
+     
+     

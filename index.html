@@ -1,0 +1,135 @@
+<html>
+    <head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+ 
+</head>
+
+
+    <body>
+        <h1>Survey Form</h1><br>
+      <div class="survey-form">
+        <p class="description">Let us know how we can improve freeCodeCamp</p>
+
+        <form method="post" action="#">
+            <div class="form">
+           <small><sup>*</sup></small> Name:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" size="20" placeholder="Enter Your Name">
+           <br>
+           <small><sup>*</sup></small> Email:&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email" placeholder="Enter Your Email"><br>
+            <small><sup>*</sup></small>Age:&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" id="Age" min="1"   placeholder="Age"><br>
+
+          <label>Which option best describes your current role?&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="option">
+                <option selected>Select an options</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time learner</option>
+                <option>Prefer Not to say</option>
+                <option>others</option>
+            </select>
+        </label><br><br>
+       
+        
+        <label class="check1">
+       <small><sup>*</sup></small> How likely is that you would recommend &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>freeCodeCamp to a friend?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="radio"value="Definitely">&nbsp;Definitely
+        </label><br>
+
+        <label class="check2">
+        <input type="radio" name="radio" value="May be">&nbsp;&nbsp;May be
+        </label><br>
+
+           <label class="check3">
+            <input type="radio" name="radio" value="Not sure">&nbsp;&nbsp;Not sure
+            </label><br><br>
+
+
+
+    
+
+        
+        <label>What do you like most in FCC:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select id="option1">
+                    <option selected>Select an options</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                  
+                </select>
+            </label><br><br>
+
+            <label for="radio-button" class="check4">
+        Things that should be improved in the future &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>(Check all that apply):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="radio1">&nbsp;&nbsp;Front-end Projects
+        </label><br>
+
+        <label for="radio-button" class="check5">
+        <input type="checkbox" id="radio2">&nbsp;&nbsp;&nbsp;Back-end Projects
+        </label><br>
+
+           <label for="radio-button" class="check6">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Data Visualization
+            </label><br>
+
+
+            <label for="radio-button" class="check7">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Challenges
+            </label><br>
+
+<label for="radio-button" class="check8">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Open Source Community
+            </label><br>
+
+<label for="radio-button" class="check9">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Gitter help rooms
+            </label><br>
+<label for="radio-button" class="check10">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Videos
+            </label><br>
+
+<label for="radio-button" class="check11">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;City Meetups
+            </label><br>
+
+            <label for="radio-button" class="check12">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Wiki
+            </label><br>
+
+            <label for="radio-button" class="check13">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Forum
+            </label><br>
+
+            <label for="radio-button" class="check14">
+            <input type="checkbox" id="radio3">&nbsp;&nbsp;&nbsp;Additional Courses
+            </label><br><br><br>
+          
+            <label>Any Comments or Suggestions?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea rows="5" cols="50" class="textarea"  placeholder="Enter your Comments..."></textarea>
+            </label><br>
+            <br>
+
+
+            <label>
+                <input type="button" name="submit" value="submit" class="submit">
+                
+
+
+            </label>
+
+      
+           
+
+    </form>
+
+
+      </div>
+
+
+    </body>
+
+
+
+</html>
